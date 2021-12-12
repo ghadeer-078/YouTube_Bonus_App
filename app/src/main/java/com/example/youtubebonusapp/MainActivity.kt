@@ -29,11 +29,12 @@ class MainActivity : AppCompatActivity() {
         checkInternet()
 
         videosList = listOf(
-            Video("Funny Video", "L8KgdWNSGtc"),
-            Video("Not Sure", "rKLk0JUS4TE"),
-            Video("Are You Sure", "wXQHJUuxvTc"),
-            Video("Secret Video", "0EqSXDwTq6U"),
-            Video("100% Sure", "hIDiQtfwCZ4"),
+            Video("Attack On Titan", "ZFU-fZfZ0DI"),
+            Video("Jujutsu Kaisen", "dwv65QSdXSU"),
+            Video("Black Clover", "olW99JAV_lA"),
+            Video("Naruto", "ejWo1KHRYTI"),
+            Video("Hunter X Hunter", "aO-ZaF4FJls"),
+            Video("Death Note", "-ZhjiihNfw4"),
         )
         gridView = findViewById(R.id.gridView)
         playerView = findViewById(R.id.player)
